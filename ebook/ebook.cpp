@@ -11,6 +11,7 @@ using namespace std::literals;
 constexpr int MAX_USER_COUNT = 100000;
 constexpr short MAX_PAGE_COUNT = 1000;
 
+
 enum class RequestType {
 	READ,
 	CHEER
