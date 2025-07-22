@@ -48,7 +48,7 @@ public:
 		if (readers_[id] == -1) {
 			return 0.0;
 		}
-		
+
 		if (readers_[id] != -1 && count_readers == 1) {
 			return 1.0;
 		}
